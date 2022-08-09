@@ -81,6 +81,82 @@ h1 {
     font-weight: 700;
     font-size: 18.0002px;
     line-height: 27px;
-
     color: #FFFFFF;
+}
+
+.section1 {
+    background-color: #17C2A4;
+}
+
+.section1Diap {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1Diap h2 {
+    margin-top:107px ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section1Diap p {
+    max-width: 577px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.glav {
+    background-color: #000000;
+    width: 87px;
+    height: 4px;
+    opacity: 0.15;
+    margin: 2px 0 19px 0;
+}
+
+.sectionList {
+    width: 1050px;
+    margin: 70px 0 122px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionList li {
+    max-width: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionList li img{
+    max-height: 135px;
+}
+
+.sectionList li p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sectionList li h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 55px 0 13px 0;
 }
