@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #87509C;
+}
+
+.headerMenu {
+    max-width: 1011px;
+    margin: 0 auto;
+    padding-top: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a {
+    padding: 11px 18px;
+    transition: .3s;
+}
+
+.menu li a:hover {
+    background-color: #643A79;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.menu li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headerContent {
+    padding: 133px 0 145px 0;
+    max-width: 908px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42.1529px;
+    line-height: 64px;
+    text-align: center;
+    color: #F7F3EA;
+}
+
+.headerButton {
+    margin-top: 26px;
+    width: max-content;
+    display: flex;
+    background-color: #EB7D4B;
+    border-radius: 3px;
+    border: none;
+}
+
+.headerButton a {
+    padding: 21px 82px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18.0002px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
