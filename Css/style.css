@@ -89,6 +89,7 @@ h1 {
 }
 
 .section1Diap {
+    padding: 107px 0 122px 0;
     max-width: 1050px;
     margin: 0 auto;
     display: flex;
@@ -98,7 +99,6 @@ h1 {
 }
 
 .section1Diap h2 {
-    margin-top:107px ;
     font-weight: 700;
     font-size: 40px;
     line-height: 61px;
@@ -125,7 +125,7 @@ h1 {
 
 .sectionList {
     width: 1050px;
-    margin: 70px 0 122px 0;
+    margin-top: 70px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -159,4 +159,72 @@ h1 {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 55px 0 13px 0;
+}
+
+.section2 {
+    background-color: #E7F1F8;
+}
+
+.section2Diap {
+    padding: 107px 0 127px 0;
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2Diap h2 {
+    font-weight: 700;
+    font-size: 40.635px;
+    line-height: 62px;
+    text-align: center;
+    color: #3C4761;
+}
+
+.section2Diap p {
+    font-weight: 400;
+    font-size: 18.2857px;
+    line-height: 28px;
+    text-align: center;
+    color: #3C4761;
+}
+
+.peapleContent {
+    margin-top: 74px;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.peapleContent li {
+    max-width: 200px;
+}
+
+.peapleContent li h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #27283D;
+    text-align: center;
+}
+
+.peapleContent li a { 
+    margin-bottom:9px ;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #30BAE7;
+}
+
+.peapleContent li p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C4761;
 }
