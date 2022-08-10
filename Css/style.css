@@ -29,6 +29,12 @@ header {
 }
 
 .menu li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
     padding: 11px 18px;
     transition: .3s;
 }
@@ -37,15 +43,6 @@ header {
     background-color: #643A79;
     border-radius: 3px;
     transition: .3s;
-}
-
-.menu li a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 .headerContent {
@@ -140,7 +137,7 @@ h1 {
     align-items: center;
 }
 
-.sectionList li img{
+.sectionList li img {
     max-height: 135px;
 }
 
@@ -211,8 +208,8 @@ h1 {
     text-align: center;
 }
 
-.peapleContent li a { 
-    margin-bottom:9px ;
+.peapleContent li a {
+    margin-bottom: 9px;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -227,4 +224,95 @@ h1 {
     line-height: 24px;
     text-align: center;
     color: #3C4761;
+}
+
+.section4 {
+    background-color: #FFDD99;
+}
+
+.section4Diap {
+    padding: 108px 0 109px 0;
+    max-width: 1105px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4Diap h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    color: #393939;
+}
+
+.section4Diap p {
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #393939
+}
+
+.section4Menu {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.section4Menu li {
+    margin: 37px 5px 65px 5px;
+}
+
+.section4Menu li a {
+    padding: 6px 24px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #393939;
+    background-color: rgba(0, 0, 0, 0.08);
+    transition: .3s;
+}
+
+.section4Menu li a:hover {
+    background-color: #FFFFFF;
+    transition: .3s;
+}
+
+.section4Viewer {
+    margin-bottom:18px ;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section4Viewer p {
+    margin: 24px 0 57px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #393939;
+}
+
+.section4Button{
+    background-color: #17C2A4;
+    border: none;
+    width: max-content;
+    display: flex;
+    border-radius: 3px;
+}
+
+.section4Button a {
+    font-weight: 600;
+    font-size: 18.0002px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 22px 59px;
+    text-decoration: none;
 }
