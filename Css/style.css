@@ -226,6 +226,42 @@ h1 {
     color: #3C4761;
 }
 
+.section3 {
+    background-color: #FFFFFF;
+}
+
+.section3Diap {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 105px 0 110px 0;
+}
+
+.section3Diap h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    color: #3C4761;
+}
+
+.section3Diap p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #3C4761;
+    max-width: 547px;
+}
+
+.styleProg {
+    list-style-type: none;
+    width: 1000px;
+}
+
 .section4 {
     background-color: #FFDD99;
 }
@@ -284,7 +320,7 @@ h1 {
 }
 
 .section4Viewer {
-    margin-bottom:18px ;
+    margin-bottom: 18px;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -300,7 +336,7 @@ h1 {
     color: #393939;
 }
 
-.section4Button{
+.section4Button {
     background-color: #17C2A4;
     border: none;
     width: max-content;
@@ -315,4 +351,81 @@ h1 {
     color: #FFFFFF;
     padding: 22px 59px;
     text-decoration: none;
+}
+
+.section5 {
+    background-color: #D74680;
+}
+
+.section5Diap {
+    margin: 0 auto;
+    padding-top: 107px;
+    max-width: 1076px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5Diap h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section5Diap p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.peapleText {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:83px ;
+}
+
+.peapleText li {
+    display: flex;
+    margin-bottom: 107px;
+}
+
+.peapleText li img {
+    margin-bottom: 94px;
+}
+
+.textContent {
+    width: 360px;
+
+}
+
+.textContent p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.textContent h3 {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.textContent h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFDD99;
 }
