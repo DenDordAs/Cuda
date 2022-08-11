@@ -391,7 +391,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top:83px ;
+    margin-top: 83px;
 }
 
 .peapleText li {
@@ -428,4 +428,82 @@ h1 {
     font-size: 18px;
     line-height: 27px;
     color: #FFDD99;
+}
+
+footer {
+    background-color: #3C5499;
+}
+
+.footerInput {
+    margin: 0 auto;
+    max-width: 860px;
+    padding: 107px 0 115px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerInput h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footerInput p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footerInput button {
+    background-color: #30BAE7;
+    width: max-content;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+}
+
+.footerInput button a {
+    padding: 21px 85px;
+    font-weight: 600;
+    font-size: 18.0002px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerMenu {
+    background-color: #344B8E;
+}
+
+.footerMenu ul {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footerMenu ul li {
+    padding: 41px 0 34px 0;
+}
+
+.footerMenu ul li a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.footerMenu ul li a:hover {
+    color: #30BAE7;
+    transition: .3s;
 }
