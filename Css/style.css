@@ -303,22 +303,22 @@ section .container div>p {
 .styleProg li h3 {
     text-transform: uppercase;
     color: #3C4761;
-    margin-top:25px ;
+    margin-top: 25px;
 }
 
-.styleProg li:first-child .interest{
+.styleProg li:first-child .interest {
     background-image: url(../Img/blue.svg);
 }
 
-.styleProg li:nth-child(2) .interest{
+.styleProg li:nth-child(2) .interest {
     background-image: url(../Img/purpl.svg);
 }
 
-.styleProg li:nth-child(3) .interest{
+.styleProg li:nth-child(3) .interest {
     background-image: url(../Img/green.svg);
 }
 
-.styleProg li:last-child .interest{
+.styleProg li:last-child .interest {
     background-image: url(../Img/orang.svg);
 }
 
@@ -326,7 +326,7 @@ section .container div>p {
     background-color: #FFDD99;
 }
 
-.portfolio .container{
+.portfolio .container {
     max-width: 1105px;
 }
 
@@ -354,9 +354,7 @@ section .container div>p {
     gap: 10px;
 }
 
-.portfolio_filter li {
-
-}
+.portfolio_filter li {}
 
 .portfolio_filter li a {
     padding: 6px 24px;
@@ -418,7 +416,7 @@ section .container div>p {
     background-color: #D74680;
 }
 
-.say_about .container{
+.say_about .container {
     max-width: 1076px;
 }
 
@@ -446,7 +444,7 @@ section .container div>p {
     align-items: center;
     margin-top: 83px;
     margin-bottom: 107px;
-    gap:100px 0 ;
+    gap: 100px 0;
 }
 
 .peapleText li {
@@ -455,14 +453,14 @@ section .container div>p {
 }
 
 .peapleText li img {
-    margin-right:48px ;
+    margin-right: 48px;
 }
 
 .textContent {
-    width: 360px;
+    max-width: 361px;
 }
 
-.textContent p {
+.say_about_content .textContent p {
     font-weight: 400;
     font-size: 21px;
     line-height: 32px;
@@ -510,12 +508,53 @@ footer {
     color: #FFFFFF;
 }
 
+form{
+    margin-top: 72px;
+}
+
+.input_info{
+    display: flex;
+    gap: 32px;
+}
+
+input, textarea{
+    padding: 18px 23px;
+    width: 368px;
+    background-color: #273A71;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+textarea{
+    max-width: 814px;
+    width: 100%;
+    height: 200px;
+    margin-top: 27px;
+}
+
+input::placeholder, textarea::placeholder , input, textarea{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+input::placeholder::after{
+    content: "*";
+    color: red;
+}
+
 .footerInput button {
     background-color: #30BAE7;
     width: max-content;
     border-radius: 3px;
     border: none;
     display: flex;
+    margin: 59px auto auto;
+    -webkit-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footerInput button a {
