@@ -152,7 +152,7 @@ section .container div>p {
 }
 
 .sectionList li img {
-    max-height: 135px;
+    height: 135px;
 }
 
 .sectionList li p {
@@ -414,35 +414,27 @@ section .container div>p {
     text-decoration: none;
 }
 
-.section5 {
+.say_about {
     background-color: #D74680;
 }
 
-.section5Diap {
-    margin: 0 auto;
-    padding-top: 107px;
+.say_about .container{
     max-width: 1076px;
+}
+
+.say_about_content {
+    padding-top: 107px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.section5Diap h2 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 61px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.say_about_content h2 {
     color: #FFFFFF;
 }
 
-.section5Diap p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
+.say_about_content p {
     color: #FFFFFF;
 }
 
@@ -453,20 +445,21 @@ section .container div>p {
     justify-content: space-between;
     align-items: center;
     margin-top: 83px;
+    margin-bottom: 107px;
+    gap:100px 0 ;
 }
 
 .peapleText li {
     display: flex;
-    margin-bottom: 107px;
+    align-items: flex-start;
 }
 
 .peapleText li img {
-    margin-bottom: 94px;
+    margin-right:48px ;
 }
 
 .textContent {
     width: 360px;
-
 }
 
 .textContent p {
@@ -474,6 +467,8 @@ section .container div>p {
     font-size: 21px;
     line-height: 32px;
     color: #FFFFFF;
+    font-style: italic;
+    text-align: start;
 }
 
 .textContent h3 {
@@ -482,6 +477,7 @@ section .container div>p {
     font-size: 24px;
     line-height: 37px;
     color: #FFFFFF;
+    text-align: start;
 }
 
 .textContent h4 {
@@ -489,6 +485,7 @@ section .container div>p {
     font-size: 18px;
     line-height: 27px;
     color: #FFDD99;
+    text-align: start;
 }
 
 footer {
@@ -506,18 +503,10 @@ footer {
 }
 
 .footerInput h2 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 61px;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .footerInput p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
     color: #FFFFFF;
 }
 
