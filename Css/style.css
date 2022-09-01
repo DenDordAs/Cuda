@@ -105,6 +105,98 @@ section .container div>p {
     color: #FFFFFF;
 }
 
+@media screen and (max-width:1050px) {
+    .headerMenu{
+        padding-top: 29px;
+        padding-left: 10px;
+        padding-right:10px ;
+    }
+
+    .headerContent{
+        padding: 100px 0;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 58px;
+    }
+
+    .headerButton a{
+        padding: 15px 60px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .headerMenu{
+        padding-top: 15px;
+    }
+
+    .headerMenu>a{
+        width: 80px;
+    }
+
+    .headerMenu img{
+        width: 100%;
+    }
+
+    .menu li a{
+        font-size: 14px;
+        line-height: 22px;
+        padding: 5px 10px;
+    }
+
+    .headerContent{
+        padding: 60px 0;
+    }
+
+    h1{
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .headerButton a{
+        padding: 10px 50px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width:541px) {
+
+    .headerMenu>a{
+        width: 80px;
+    }
+
+    .headerMenu img{
+        width: 100%;
+    }
+
+    .menu li a{
+        font-size: 12px;
+        line-height: 20px;
+        padding: 3px 8px;
+    }
+
+    .headerContent{
+        padding: 20px 0;
+    }
+
+    h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .headerButton a{
+        padding: 10px 40px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+}
+
+
+
 .services {
     background-color: #17C2A4;
 }
