@@ -195,8 +195,6 @@ section .container div>p {
     }
 }
 
-
-
 .services {
     background-color: #17C2A4;
 }
@@ -313,14 +311,22 @@ section .container div>p {
     }
 
     h2 {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 30px;
     }
 
     section .container div>p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 20px;
-        max-width: 400px;
+        max-width: 280px;
+    }
+
+    .sectionList li{
+        max-width: 150px;
+    }
+
+    .sectionList li img{
+        height: 80px;
     }
 
     .sectionList li h3{
@@ -328,7 +334,7 @@ section .container div>p {
     }
 
     h3{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
     }
 
@@ -703,7 +709,7 @@ section .container div>p {
     }
 
     .portfolio_viewer li img{
-        height: 235px;
+        height: 170px;
     }
 
     .load_more a{
@@ -811,6 +817,7 @@ footer {
 
 form {
     margin-top: 72px;
+    width: 100%;
 }
 
 .input_info {
@@ -900,4 +907,65 @@ input::placeholder::after {
 .footerMenu ul li a:hover {
     color: #30BAE7;
     transition: .3s;
+}
+
+@media screen and (max-width:1050px) {
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    textarea{
+        max-width: 85%;
+        width: 100%;
+        margin: 27px auto;
+    }
+
+    .input_info{
+        justify-content: center;
+    }
+
+    .input_info input{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width:950px){
+    textarea{
+        max-width: 600px;
+        width: 100%;
+        margin: 27px auto;
+    }
+
+    .input_info{
+        justify-content: space-between;
+        max-width: 646px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .input_info input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:769px){
+    textarea{
+        max-width: 278px;
+        width: 100%;
+        margin: 27px auto;
+    }
+
+    .input_info{
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 324px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .input_info input{
+        width: 278px;
+    }
 }
