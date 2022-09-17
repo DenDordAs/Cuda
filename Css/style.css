@@ -287,7 +287,7 @@ section .container div>p {
 }
 
 @media screen and (max-width:769px) {
-    section .container div>p{
+    section .container div>p {
         max-width: 500px;
     }
 
@@ -296,11 +296,11 @@ section .container div>p {
         max-width: 650px;
     }
 
-    .sectionList li img{
+    .sectionList li img {
         height: 105px;
     }
 
-    .sectionList li h3{
+    .sectionList li h3 {
         margin: 18px 0 5px 0
     }
 }
@@ -321,24 +321,24 @@ section .container div>p {
         max-width: 280px;
     }
 
-    .sectionList li{
+    .sectionList li {
         max-width: 150px;
     }
 
-    .sectionList li img{
+    .sectionList li img {
         height: 80px;
     }
 
-    .sectionList li h3{
+    .sectionList li h3 {
         margin: 26px 0 6px 0;
     }
 
-    h3{
+    h3 {
         font-size: 16px;
         line-height: 22px;
     }
 
-    .sectionList li p{
+    .sectionList li p {
         font-size: 14px;
         line-height: 19px;
     }
@@ -428,7 +428,7 @@ section .container div>p {
 }
 
 @media screen and (max-width:1151px) {
-    .peapleContent{
+    .peapleContent {
         margin-top: 55px;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -437,39 +437,39 @@ section .container div>p {
 }
 
 @media screen and (max-width:1050px) {
-    .meet_our_content{
+    .meet_our_content {
         padding: 55px 0 65px 0;
     }
 
-    .peapleContent{
+    .peapleContent {
         margin-top: 40px;
         max-width: 850px;
     }
 }
 
 @media screen and (max-width:769px) {
-    .peapleContent{
+    .peapleContent {
         max-width: 620px;
     }
 }
 
 @media screen and (max-width:541px) {
-    .meet_our_content{
+    .meet_our_content {
         padding: 35px 0;
     }
 
-    .peapleContent li{
+    .peapleContent li {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .peapleContent li img{
+    .peapleContent li img {
         max-width: max-content;
         width: 80%;
     }
 
-    .social_link{
+    .social_link {
         margin-top: 15px;
     }
 }
@@ -545,11 +545,11 @@ section .container div>p {
 }
 
 @media screen and (max-width:1050px) {
-    .we_got_content{
+    .we_got_content {
         padding: 50px 0 75px 0;
     }
 
-    .styleProg{
+    .styleProg {
         justify-content: space-evenly;
         margin-top: 45px;
         flex-wrap: wrap;
@@ -557,14 +557,14 @@ section .container div>p {
 }
 
 @media screen and (max-width:769px) {
-    .styleProg{
+    .styleProg {
         max-width: 650px;
         gap: 20px;
     }
 }
 
 @media screen and (max-width:541px) {
-    .we_got_content{
+    .we_got_content {
         padding: 25px 0 40px 0;
     }
 }
@@ -660,59 +660,59 @@ section .container div>p {
 }
 
 @media screen and (max-width:1151px) {
-    .portfolio_filter{
+    .portfolio_filter {
         margin: 30px 0 45px 0;
     }
 
-    .portfolio_viewer{
+    .portfolio_viewer {
         justify-content: space-evenly;
     }
 
-    .portfolio_viewer li img{
+    .portfolio_viewer li img {
         height: 275px;
     }
 
-    .portfolio_viewer li p{
+    .portfolio_viewer li p {
         margin: 12px auto 0;
     }
 }
 
 @media screen and (max-width:1050px) {
-    .portfolio_content{
+    .portfolio_content {
         padding: 30px 0 60px 0;
     }
 
-    .load_more{
+    .load_more {
         margin-top: 25px;
     }
 }
 
 @media screen and (max-width:769px) {
-    .portfolio_filter{
+    .portfolio_filter {
         margin: 20px 0 35px 0;
     }
 
-    .portfolio_filter li a{
+    .portfolio_filter li a {
         font-size: 15px;
         padding: 4px 20px;
     }
 }
 
 @media screen and (max-width:541px) {
-    .portfolio_filter{
+    .portfolio_filter {
         margin: 13px 0 27px 0;
     }
 
-    .portfolio_filter li a{
+    .portfolio_filter li a {
         font-size: 11px;
         padding: 3px 14px;
     }
 
-    .portfolio_viewer li img{
+    .portfolio_viewer li img {
         height: 170px;
     }
 
-    .load_more a{
+    .load_more a {
         font-size: 14px;
         line-height: 10px;
         padding: 20px 36px;
@@ -791,6 +791,97 @@ section .container div>p {
     line-height: 27px;
     color: #FFDD99;
     text-align: start;
+}
+
+@media screen and (max-width:1151px) {
+    .peapleText {
+        gap: 90px 0;
+        justify-content: space-evenly;
+    }
+
+    .peapleText li img {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .peapleText {
+        gap: 65px 0;
+        max-width: 500px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .say_about_content {
+        padding-top: 50px;
+    }
+
+    .peapleText {
+        gap: 40px 0;
+        max-width: 480px;
+        margin-top: 50px;
+        margin-bottom: 68px;
+    }
+
+    .peapleText li img {
+        width: 85px;
+    }
+
+    .say_about_content .textContent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .textContent {
+        max-width: 310px;
+    }
+
+    .textContent h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 17px;
+    }
+
+    .textContent h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .say_about_content {
+        padding-top: 30px;
+    }
+
+    .textContent h3 {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 14px;
+    }
+
+    .textContent h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .say_about_content .textContent p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .peapleText {
+        gap: 30px 0;
+        max-width: 310px;
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+    .peapleText li img {
+        width: 70px;
+    }
 }
 
 footer {
@@ -910,54 +1001,109 @@ input::placeholder::after {
 }
 
 @media screen and (max-width:1050px) {
-    form{
+    form {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
 
-    textarea{
+    textarea {
         max-width: 85%;
         width: 100%;
         margin: 27px auto;
     }
 
-    .input_info{
+    .input_info {
         justify-content: center;
     }
 
-    .input_info input{
+    .input_info input {
         width: 37%;
+    }
+
+    .footerMenu ul {
+        max-width: 845px;
     }
 }
 
-@media screen and (max-width:950px){
-    textarea{
+@media screen and (max-width:950px) {
+    .footerInput{
+        padding: 60px 0 75px 0;
+    }
+
+    .footerInput button{
+        margin: 40px auto auto;
+    }
+
+    .footerInput button a{
+        padding: 15px 60px;
+    }
+
+    textarea {
         max-width: 600px;
         width: 100%;
         margin: 27px auto;
     }
 
-    .input_info{
+    .input_info {
         justify-content: space-between;
         max-width: 646px;
         width: 100%;
         margin: 0 auto;
     }
 
-    .input_info input{
+    .input_info input {
         width: 100%;
+    }
+
+    .footerMenu ul {
+        max-width: 700px;
+        justify-content: space-evenly;
+    }
+
+    .footerMenu ul li {
+        padding: 25px 0 24px 0;
+    }
+
+    .footerMenu ul li a {
+        font-size: 21px;
+        line-height: 30px;
     }
 }
 
-@media screen and (max-width:769px){
-    textarea{
+@media screen and (max-width:769px) {
+    input{
+        padding: 8px 23px;
+    }
+
+    form {
+        margin-top: 48px;
+    }
+
+    .footerInput {
+        padding: 45px 0 50px 0;
+    }
+
+    .footerInput p {
+        max-width: 270px;
+        text-align: center;
+    }
+
+    .footerInput button {
+        margin: 6px auto auto;
+    }
+
+    .footerInput button a {
+        padding: 6px 40px;
+    }
+
+    textarea {
         max-width: 278px;
         width: 100%;
         margin: 27px auto;
     }
 
-    .input_info{
+    .input_info {
         flex-direction: column;
         justify-content: space-between;
         max-width: 324px;
@@ -965,7 +1111,46 @@ input::placeholder::after {
         margin: 0 auto;
     }
 
-    .input_info input{
+    .input_info input {
         width: 278px;
+    }
+
+    .footerMenu ul {
+        max-width: 530px;
+    }
+
+    .footerMenu ul li {
+        padding: 10px 0;
+    }
+
+    .footerMenu ul li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    input::placeholder, textarea::placeholder, input, textarea {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footerInput {
+        padding: 30px 0 40px 0;
+    }
+
+    .footerInput p{
+        font-size: 13px;
+    }
+
+    .footerInput button a {
+        padding: 5px 35px;
+        font-size: 14.0002px;
+    }
+
+    .footerMenu ul {
+        max-width: 300px;
+        flex-wrap: wrap;
+        gap: 0px 10px;
     }
 }
